@@ -13,6 +13,7 @@ import requests
 app = Flask(__name__)
 #run_with_ngrok(app)
 
+
 messages = [
     #{"role": "system", "content": OPENAI_API_PROMPT},
 ]
