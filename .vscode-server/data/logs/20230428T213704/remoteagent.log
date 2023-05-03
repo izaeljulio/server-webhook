@@ -72,3 +72,20 @@
 2023-05-03 14:27:53.359 [info] Extension installed successfully: ms-python.vscode-pylance
 2023-05-03 15:31:51.869 [info] [127.0.0.1][29be704a][ManagementConnection] The client has reconnected.
 2023-05-03 15:31:52.010 [info] [127.0.0.1][bd9eb08c][ExtensionHostConnection] The client has reconnected.
+2023-05-03 18:01:34.016 [info] [127.0.0.1][bd9eb08c][ExtensionHostConnection] The client has reconnected.
+2023-05-03 18:01:34.171 [info] [127.0.0.1][29be704a][ManagementConnection] The client has reconnected.
+2023-05-03 18:11:19.255 [info] [127.0.0.1][07877ace][ManagementConnection] New connection established.
+2023-05-03 18:11:19.550 [info] [127.0.0.1][55e8ac5d][ExtensionHostConnection] New connection established.
+2023-05-03 18:11:19.560 [info] [127.0.0.1][55e8ac5d][ExtensionHostConnection] <10341> Launched Extension Host Process.
+2023-05-03 18:11:32.832 [info] [127.0.0.1][07877ace][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-05-03 18:11:32.856 [info] [127.0.0.1][55e8ac5d][ExtensionHostConnection] <10341> Extension Host Process exited with code: 0, signal: null.
+2023-05-03 18:12:15.449 [info] [127.0.0.1][6afcf1d6][ManagementConnection] New connection established.
+2023-05-03 18:12:15.822 [info] [127.0.0.1][29be704a][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-05-03 18:12:15.852 [info] [127.0.0.1][bd9eb08c][ExtensionHostConnection] <168> Extension Host Process exited with code: 0, signal: null.
+2023-05-03 18:12:16.321 [info] [127.0.0.1][29f6731d][ExtensionHostConnection] New connection established.
+2023-05-03 18:12:16.357 [info] [127.0.0.1][29f6731d][ExtensionHostConnection] <10580> Launched Extension Host Process.
+2023-05-03 18:23:28.259 [info] [127.0.0.1][6afcf1d6][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-05-03 18:23:28.436 [info] [127.0.0.1][29f6731d][ExtensionHostConnection] <10580> Extension Host Process exited with code: 0, signal: null.
+2023-05-03 18:23:28.680 [info] [127.0.0.1][c8408fd9][ManagementConnection] New connection established.
+2023-05-03 18:23:29.914 [info] [127.0.0.1][030e5304][ExtensionHostConnection] New connection established.
+2023-05-03 18:23:29.937 [info] [127.0.0.1][030e5304][ExtensionHostConnection] <11278> Launched Extension Host Process.

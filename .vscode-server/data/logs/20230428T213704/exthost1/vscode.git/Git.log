@@ -4,3 +4,5 @@
 2023-05-03 14:30:03.227 [info] > git rev-parse --show-toplevel [6ms]
 2023-05-03 14:30:03.227 [info] fatal: not a git repository (or any of the parent directories): .git
 2023-05-03 16:14:04.264 [info] > git rev-parse --show-toplevel [4ms]
+2023-05-03 16:26:43.441 [info] > git rev-parse --show-toplevel [11ms]
+2023-05-03 16:38:48.723 [info] > git rev-parse --show-toplevel [5ms]

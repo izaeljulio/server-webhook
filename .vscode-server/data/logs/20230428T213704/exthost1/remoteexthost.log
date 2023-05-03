@@ -18,3 +18,5 @@
 	at processTicksAndRejections (node:internal/process/task_queues:96:5)
 	at async Kd.getPackageInformation (/home/izael/.vscode-server/extensions/ms-toolsai.jupyter-2023.3.1201040234/out/extension.node.js:7:19123)
 2023-05-03 14:30:23.871 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2023-05-03 18:12:15.619 [info] Extension host terminating: received terminate message from renderer
+2023-05-03 18:12:15.774 [info] Extension host with pid 168 exiting with code 0

@@ -1,0 +1,10 @@
+Visual Studio Code (1.77.3, wsl, desktop)
+Jupyter Extension Version: 2023.3.1201040234.
+Python Extension Version: 2023.6.1.
+Workspace folder /home/izael
+info 18:23:47.379: ZMQ loaded via fallback mechanism.
+User belongs to experiment group 'jupyterEnhancedDataViewer'
+User belongs to experiment group 'jupyterTestcf'
+info 18:23:47.705: LSP Notebooks experiment is enabled
+info 18:23:48.125: Process Execution: > ~/server-webhook/bin/python -m pip list
+> ~/server-webhook/bin/python -m pip list

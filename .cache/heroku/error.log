@@ -4,3 +4,45 @@
 2023-05-03T19:10:28.862Z     at async Set.run (/usr/lib/heroku/node_modules/@heroku-cli/plugin-buildpacks/lib/commands/buildpacks/set.js:13:9)
 2023-05-03T19:10:28.862Z     at async Set._run (/usr/lib/heroku/node_modules/@oclif/core/lib/command.js:80:22)
 2023-05-03T19:10:28.862Z     at async Config.runCommand (/usr/lib/heroku/node_modules/@oclif/core/lib/config/config.js:301:25)
+2023-05-03T19:17:43.070Z Error: The buildpack heroku/python is already set on your app.
+2023-05-03T19:17:43.070Z     at Object.error (/usr/lib/heroku/node_modules/@oclif/core/lib/errors/index.js:28:15)
+2023-05-03T19:17:43.070Z     at BuildpackCommand.validateUrlNotSet (/usr/lib/heroku/node_modules/@heroku-cli/plugin-buildpacks/lib/buildpacks.js:74:29)
+2023-05-03T19:17:43.070Z     at async Set.run (/usr/lib/heroku/node_modules/@heroku-cli/plugin-buildpacks/lib/commands/buildpacks/set.js:13:9)
+2023-05-03T19:17:43.070Z     at async Set._run (/usr/lib/heroku/node_modules/@oclif/core/lib/command.js:80:22)
+2023-05-03T19:17:43.070Z     at async Config.runCommand (/usr/lib/heroku/node_modules/@oclif/core/lib/config/config.js:301:25)
+2023/05/03 19:31:04 Error: Expected response to be successful, got 404
+    at Request.handleFailure [as _handleFailure] (/usr/lib/heroku/node_modules/heroku-client/lib/request.js:255:11)
+    at Request.<anonymous> (/usr/lib/heroku/node_modules/heroku-cli-util/lib/command.js:56:12)
+    at /usr/lib/heroku/node_modules/heroku-client/lib/request.js:148:16
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023/05/03 19:31:04 {"resource":"process_type (web)","id":"not_found","message":"Couldn't find that process type (web)."}
+2023/05/03 19:31:29 Error: Expected response to be successful, got 404
+    at Request.handleFailure [as _handleFailure] (/usr/lib/heroku/node_modules/heroku-client/lib/request.js:255:11)
+    at Request.<anonymous> (/usr/lib/heroku/node_modules/heroku-cli-util/lib/command.js:56:12)
+    at /usr/lib/heroku/node_modules/heroku-client/lib/request.js:148:16
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023/05/03 19:31:29 {"resource":"process_type (server_webhook)","id":"not_found","message":"Couldn't find that process type (server webhook)."}
+2023-05-03T21:01:54.624Z Warning: update with "sudo apt update && sudo apt install heroku"
+2023-05-03T21:01:54.624Z     at Object.warn (/usr/lib/heroku/node_modules/@oclif/plugin-update/node_modules/@oclif/core/lib/errors/index.js:49:15)
+2023-05-03T21:01:54.624Z     at Updater.notUpdatable (/usr/lib/heroku/node_modules/@oclif/plugin-update/lib/update.js:218:27)
+2023-05-03T21:01:54.624Z     at Updater.runUpdate (/usr/lib/heroku/node_modules/@oclif/plugin-update/lib/update.js:30:18)
+2023-05-03T21:01:54.624Z     at async UpdateCommand._run (/usr/lib/heroku/node_modules/@oclif/plugin-update/node_modules/@oclif/core/lib/command.js:108:22)
+2023-05-03T21:01:54.624Z     at async Config.runCommand (/usr/lib/heroku/node_modules/@oclif/core/lib/config/config.js:301:25)
+2023/05/03 21:05:57 Error: Expected response to be successful, got 404
+    at Request.handleFailure [as _handleFailure] (/usr/lib/heroku/node_modules/heroku-client/lib/request.js:255:11)
+    at Request.<anonymous> (/usr/lib/heroku/node_modules/heroku-cli-util/lib/command.js:56:12)
+    at /usr/lib/heroku/node_modules/heroku-client/lib/request.js:148:16
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023/05/03 21:05:57 {"resource":"process_type (web)","id":"not_found","message":"Couldn't find that process type (web)."}
+2023/05/03 21:14:43 Error: Command failed: git remote
+fatal: detected dubious ownership in repository at '/home/projeto_exemplo_python/python-getting-started'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/projeto_exemplo_python/python-getting-started
+
+    at ChildProcess.exithandler (node:child_process:402:12)
+    at ChildProcess.emit (node:events:513:28)
+    at maybeClose (node:internal/child_process:1100:16)
+    at Socket.<anonymous> (node:internal/child_process:458:11)
+    at Socket.emit (node:events:513:28)
+    at Pipe.<anonymous> (node:net:301:12)

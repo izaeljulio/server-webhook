@@ -22,3 +22,6 @@ error 14:27:56.733: interpreterPackages getPackageInformation, Class name = Kd, 
   category: 'notinstalled',
   moduleName: 'pip'
 }
+info 18:12:15.683: Shutting down notebooks for 7fdcd704-326b-4b80-9563-76e872259827
+info 18:12:15.683: Disposing HostJupyterExecution 472df841-5388-43d2-a12c-ef71b4d71672
+info 18:12:15.684: Disposing HostJupyterExecution 472df841-5388-43d2-a12c-ef71b4d71672
