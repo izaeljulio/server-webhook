@@ -1,0 +1,6 @@
+2023-05-03T19:10:28.862Z Error: The buildpack heroku/python is already set on your app.
+2023-05-03T19:10:28.862Z     at Object.error (/usr/lib/heroku/node_modules/@oclif/core/lib/errors/index.js:28:15)
+2023-05-03T19:10:28.862Z     at BuildpackCommand.validateUrlNotSet (/usr/lib/heroku/node_modules/@heroku-cli/plugin-buildpacks/lib/buildpacks.js:74:29)
+2023-05-03T19:10:28.862Z     at async Set.run (/usr/lib/heroku/node_modules/@heroku-cli/plugin-buildpacks/lib/commands/buildpacks/set.js:13:9)
+2023-05-03T19:10:28.862Z     at async Set._run (/usr/lib/heroku/node_modules/@oclif/core/lib/command.js:80:22)
+2023-05-03T19:10:28.862Z     at async Config.runCommand (/usr/lib/heroku/node_modules/@oclif/core/lib/config/config.js:301:25)

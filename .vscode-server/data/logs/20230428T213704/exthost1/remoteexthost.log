@@ -1,0 +1,20 @@
+2023-04-28 21:37:06.508 [info] Extension host with pid 168 started
+2023-04-28 21:37:06.567 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-04-28 21:37:06.585 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-04-28 21:37:06.585 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-04-28 21:37:06.761 [info] Eager extensions activated
+2023-04-28 21:37:06.761 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-04-28 21:37:06.762 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-04-28 21:40:29.878 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-05-03 14:27:54.040 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+2023-05-03 14:27:54.041 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+2023-05-03 14:27:54.862 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+2023-05-03 14:27:55.502 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+2023-05-03 14:27:56.262 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-05-03 14:27:56.262 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-05-03 14:27:56.262 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-05-03 14:27:57.740 [error] Error: Module 'pip' not installed.
+	at au.execModule (/home/izael/.vscode-server/extensions/ms-toolsai.jupyter-2023.3.1201040234/out/extension.node.js:7:27794)
+	at processTicksAndRejections (node:internal/process/task_queues:96:5)
+	at async Kd.getPackageInformation (/home/izael/.vscode-server/extensions/ms-toolsai.jupyter-2023.3.1201040234/out/extension.node.js:7:19123)
+2023-05-03 14:30:23.871 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'

@@ -1,0 +1,9 @@
+[Info  - 2:27:56 PM] (26700) Pylance language server 2023.4.40 (pyright 5b6a1d3b) starting
+[Info  - 2:27:56 PM] (26700) Server root directory: /home/izael/.vscode-server/extensions/ms-python.vscode-pylance-2023.4.40/dist
+[Info  - 2:29:47 PM] (26700) Starting service instance "<default>"
+[Info  - 2:29:47 PM] (26700) Setting pythonPath for service "<default>": "/bin/python3"
+[Warn  - 2:29:47 PM] (26700) stubPath typings is not a valid directory.
+[Info  - 2:29:47 PM] (26700) Assuming Python version 3.8
+[Info  - 2:29:47 PM] (26700) No source files found.
+[Info  - 2:29:48 PM] (26700) Background analysis(1) root directory: /home/izael/.vscode-server/extensions/ms-python.vscode-pylance-2023.4.40/dist
+[Info  - 2:29:48 PM] (26700) Background analysis(1) started

@@ -1,0 +1,74 @@
+2023-04-28 21:37:04.704 [info] 
+
+
+
+
+2023-04-28 21:37:04.704 [info] Extension host agent started.
+2023-04-28 21:37:04.718 [info] Started initializing default profile extensions in extensions installation folder. file:///home/izael/.vscode-server/extensions
+2023-04-28 21:37:04.769 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/izael/.vscode-server/extensions
+2023-04-28 21:37:05.128 [info] [127.0.0.1][29be704a][ManagementConnection] New connection established.
+2023-04-28 21:37:05.522 [info] [127.0.0.1][bd9eb08c][ExtensionHostConnection] New connection established.
+2023-04-28 21:37:05.534 [info] [127.0.0.1][bd9eb08c][ExtensionHostConnection] <168> Launched Extension Host Process.
+2023-04-28 22:57:01.942 [warning] No ptyHost heartbeat after 6 seconds
+2023-05-02 18:22:53.698 [info] [127.0.0.1][bd9eb08c][ExtensionHostConnection] The client has reconnected.
+2023-05-02 18:22:53.699 [info] [127.0.0.1][29be704a][ManagementConnection] The client has reconnected.
+2023-05-02 18:29:50.952 [warning] No ptyHost heartbeat after 6 seconds
+2023-05-02 19:26:57.743 [info] [127.0.0.1][bd9eb08c][ExtensionHostConnection] The client has reconnected.
+2023-05-02 19:26:57.990 [info] [127.0.0.1][29be704a][ManagementConnection] The client has reconnected.
+2023-05-02 21:32:01.863 [warning] No ptyHost heartbeat after 6 seconds
+2023-05-03 07:52:34.238 [info] [127.0.0.1][29be704a][ManagementConnection] The client has reconnected.
+2023-05-03 07:52:34.407 [info] [127.0.0.1][bd9eb08c][ExtensionHostConnection] The client has reconnected.
+2023-05-03 10:38:38.816 [warning] No ptyHost heartbeat after 6 seconds
+2023-05-03 14:05:47.365 [info] [127.0.0.1][bd9eb08c][ExtensionHostConnection] The client has reconnected.
+2023-05-03 14:05:47.662 [info] [127.0.0.1][29be704a][ManagementConnection] The client has reconnected.
+2023-05-03 14:27:35.796 [info] Getting Manifest... ms-python.python
+2023-05-03 14:27:36.011 [info] Installing extension: ms-python.python
+2023-05-03 14:27:37.317 [info] Getting Manifest... ms-toolsai.jupyter
+2023-05-03 14:27:37.814 [info] Getting Manifest... ms-toolsai.jupyter-keymap
+2023-05-03 14:27:38.005 [info] Getting Manifest... ms-toolsai.jupyter-renderers
+2023-05-03 14:27:38.204 [info] Getting Manifest... ms-toolsai.vscode-jupyter-cell-tags
+2023-05-03 14:27:38.424 [info] Getting Manifest... ms-toolsai.vscode-jupyter-slideshow
+2023-05-03 14:27:38.581 [info] Getting Manifest... ms-python.vscode-pylance
+2023-05-03 14:27:38.825 [info] Installing extension: ms-toolsai.jupyter ms-python.python
+2023-05-03 14:27:38.825 [info] Installing extension: ms-toolsai.jupyter-keymap ms-python.python
+2023-05-03 14:27:38.826 [info] Installing extension: ms-toolsai.jupyter-renderers ms-python.python
+2023-05-03 14:27:38.826 [info] Installing extension: ms-toolsai.vscode-jupyter-cell-tags ms-python.python
+2023-05-03 14:27:38.826 [info] Installing extension: ms-toolsai.vscode-jupyter-slideshow ms-python.python
+2023-05-03 14:27:38.826 [info] Installing extension: ms-python.vscode-pylance ms-python.python
+2023-05-03 14:27:41.462 [info] Extension signature is verified: ms-toolsai.jupyter-keymap
+2023-05-03 14:27:41.478 [info] Extension signature is verified: ms-toolsai.vscode-jupyter-slideshow
+2023-05-03 14:27:41.480 [info] Extension signature is verified: ms-toolsai.vscode-jupyter-cell-tags
+2023-05-03 14:27:41.524 [info] Extracted extension to /home/izael/.vscode-server/extensions/.28aac4a5-f575-4b27-93ca-0d78300b30f3: ms-toolsai.jupyter-keymap
+2023-05-03 14:27:41.544 [info] Renamed to /home/izael/.vscode-server/extensions/ms-toolsai.jupyter-keymap-1.1.0
+2023-05-03 14:27:41.547 [info] Extracting extension completed. ms-toolsai.jupyter-keymap
+2023-05-03 14:27:41.553 [info] Extracted extension to /home/izael/.vscode-server/extensions/.bef1b4b2-aead-4346-9983-1fdef55df955: ms-toolsai.vscode-jupyter-slideshow
+2023-05-03 14:27:41.565 [info] Extracted extension to /home/izael/.vscode-server/extensions/.9ae72bc4-4ab1-4fad-8a03-32ecef9db9b7: ms-toolsai.vscode-jupyter-cell-tags
+2023-05-03 14:27:41.575 [info] Renamed to /home/izael/.vscode-server/extensions/ms-toolsai.vscode-jupyter-slideshow-0.1.5
+2023-05-03 14:27:41.577 [info] Extracting extension completed. ms-toolsai.vscode-jupyter-slideshow
+2023-05-03 14:27:41.582 [info] Renamed to /home/izael/.vscode-server/extensions/ms-toolsai.vscode-jupyter-cell-tags-0.1.8
+2023-05-03 14:27:41.583 [info] Extracting extension completed. ms-toolsai.vscode-jupyter-cell-tags
+2023-05-03 14:27:41.611 [info] Extension signature is verified: ms-python.python
+2023-05-03 14:27:44.271 [info] Extension signature is verified: ms-toolsai.jupyter-renderers
+2023-05-03 14:27:44.439 [info] Extracted extension to /home/izael/.vscode-server/extensions/.262f42a4-3d7f-4f01-a32b-f6c3062a1aad: ms-python.python
+2023-05-03 14:27:44.453 [info] Renamed to /home/izael/.vscode-server/extensions/ms-python.python-2023.6.1
+2023-05-03 14:27:44.459 [info] Extracting extension completed. ms-python.python
+2023-05-03 14:27:44.645 [info] Extracted extension to /home/izael/.vscode-server/extensions/.8000a32c-ae50-4fa6-8f4b-1e426035ea68: ms-toolsai.jupyter-renderers
+2023-05-03 14:27:44.653 [info] Renamed to /home/izael/.vscode-server/extensions/ms-toolsai.jupyter-renderers-1.0.15
+2023-05-03 14:27:44.655 [info] Extracting extension completed. ms-toolsai.jupyter-renderers
+2023-05-03 14:27:46.341 [info] Extension signature is verified: ms-toolsai.jupyter
+2023-05-03 14:27:46.925 [info] Extracted extension to /home/izael/.vscode-server/extensions/.f9827e10-b2ac-4b10-bd86-c29daecfda96: ms-toolsai.jupyter
+2023-05-03 14:27:46.942 [info] Renamed to /home/izael/.vscode-server/extensions/ms-toolsai.jupyter-2023.3.1201040234
+2023-05-03 14:27:46.952 [info] Extracting extension completed. ms-toolsai.jupyter
+2023-05-03 14:27:48.985 [info] Extension signature is verified: ms-python.vscode-pylance
+2023-05-03 14:27:53.301 [info] Extracted extension to /home/izael/.vscode-server/extensions/.39c7d9c6-8137-4a5a-aef6-d2446a45d54b: ms-python.vscode-pylance
+2023-05-03 14:27:53.334 [info] Renamed to /home/izael/.vscode-server/extensions/ms-python.vscode-pylance-2023.4.40
+2023-05-03 14:27:53.344 [info] Extracting extension completed. ms-python.vscode-pylance
+2023-05-03 14:27:53.358 [info] Extension installed successfully: ms-toolsai.jupyter-keymap
+2023-05-03 14:27:53.359 [info] Extension installed successfully: ms-toolsai.vscode-jupyter-slideshow
+2023-05-03 14:27:53.359 [info] Extension installed successfully: ms-toolsai.vscode-jupyter-cell-tags
+2023-05-03 14:27:53.359 [info] Extension installed successfully: ms-python.python
+2023-05-03 14:27:53.359 [info] Extension installed successfully: ms-toolsai.jupyter-renderers
+2023-05-03 14:27:53.359 [info] Extension installed successfully: ms-toolsai.jupyter
+2023-05-03 14:27:53.359 [info] Extension installed successfully: ms-python.vscode-pylance
+2023-05-03 15:31:51.869 [info] [127.0.0.1][29be704a][ManagementConnection] The client has reconnected.
+2023-05-03 15:31:52.010 [info] [127.0.0.1][bd9eb08c][ExtensionHostConnection] The client has reconnected.

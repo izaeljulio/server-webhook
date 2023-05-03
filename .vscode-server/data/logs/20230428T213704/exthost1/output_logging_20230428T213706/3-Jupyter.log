@@ -1,0 +1,24 @@
+Visual Studio Code (1.77.3, wsl, desktop)
+Jupyter Extension Version: 2023.3.1201040234.
+Python Extension Version: 2023.6.1.
+No workspace folder opened.
+info 14:27:54.582: ZMQ loaded via fallback mechanism.
+info 14:27:54.865: LSP Notebooks experiment is enabled
+info 14:27:54.991: Process Execution: > jupyter notebook --version
+> jupyter notebook --version
+info 14:27:55.083: Process Execution: > jupyter lab --version
+> jupyter lab --version
+warn 14:27:56.219: Failed to get activated env vars for /bin/python3 in 66ms
+info 14:27:56.224: Process Execution: > /bin/python3 -c "import site;print("USER_BASE_VALUE");print(site.USER_BASE);print("USER_BASE_VALUE");"
+> /bin/python3 -c "import site;print("USER_BASE_VALUE");print(site.USER_BASE);print("USER_BASE_VALUE");"
+info 14:27:56.248: Process Execution: > /bin/python3 -m pip list
+> /bin/python3 -m pip list
+info 14:27:56.368: Process Execution: > /bin/python3 -c "import pip;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
+> /bin/python3 -c "import pip;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
+error 14:27:56.733: interpreterPackages getPackageInformation, Class name = Kd, completed in 581ms, has a falsy return value, Arg 1: {"interpreter":{"id":"/bin/python3","sysPrefix":"/usr","displayPath":{"$mid":1,"fsPath":"/bin/python3","path":"/bin/python3","scheme":"file"},"envName":"","uri":{"$mid":1,"fsPath":"/bin/python3","external":"file:///bin/python3","path":"/bin/python3","scheme":"file"},"displayName":"","envType":"Unknown","isCondaEnvWithoutPython":false,"version":{"major":3,"minor":8,"patch":10,"raw":"3.8.10 (default, Mar 13 2023, 10:26:41) \n[GCC 9.4.0]"}}} [su [Error]: Module 'pip' not installed.
+	at au.execModule (/home/izael/.vscode-server/extensions/ms-toolsai.jupyter-2023.3.1201040234/out/extension.node.js:7:27794)
+	at processTicksAndRejections (node:internal/process/task_queues:96:5)
+	at async Kd.getPackageInformation (/home/izael/.vscode-server/extensions/ms-toolsai.jupyter-2023.3.1201040234/out/extension.node.js:7:19123)] {
+  category: 'notinstalled',
+  moduleName: 'pip'
+}
