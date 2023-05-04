@@ -12,3 +12,13 @@
 2023-05-04 10:08:18.736 [info] [127.0.0.1][3c5d4e85][ExtensionHostConnection] <93> Launched Extension Host Process.
 2023-05-04 11:13:51.000 [info] [127.0.0.1][3c5d4e85][ExtensionHostConnection] The client has reconnected.
 2023-05-04 11:13:52.061 [info] [127.0.0.1][0ba78079][ManagementConnection] The client has reconnected.
+2023-05-04 13:39:04.899 [info] [127.0.0.1][0ba78079][ManagementConnection] The client has reconnected.
+2023-05-04 13:39:07.955 [info] [127.0.0.1][3c5d4e85][ExtensionHostConnection] The client has reconnected.
+2023-05-04 14:11:00.055 [info] [127.0.0.1][3c5d4e85][ExtensionHostConnection] The client has reconnected.
+2023-05-04 14:11:00.221 [info] [127.0.0.1][0ba78079][ManagementConnection] The client has reconnected.
+2023-05-04 14:44:26.432 [warning] No ptyHost heartbeat after 6 seconds
+2023-05-04 16:07:04.825 [info] [127.0.0.1][0ba78079][ManagementConnection] The client has reconnected.
+2023-05-04 16:07:05.032 [info] [127.0.0.1][3c5d4e85][ExtensionHostConnection] The client has reconnected.
+2023-05-04 16:39:49.032 [warning] No ptyHost heartbeat after 6 seconds
+2023-05-04 19:49:35.998 [info] [127.0.0.1][3c5d4e85][ExtensionHostConnection] The client has reconnected.
+2023-05-04 19:49:36.520 [info] [127.0.0.1][0ba78079][ManagementConnection] The client has reconnected.

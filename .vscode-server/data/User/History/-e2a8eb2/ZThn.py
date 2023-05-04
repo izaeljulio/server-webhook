@@ -33,12 +33,13 @@ def index():
 
 @app.route('/webhook', methods=['GET', 'POST'])
 def webhook():
-    
+    input_response = request.get_json()
     if request.method == 'GET':
         VERIFY_TOKEN = 'token_whats_teste'
         mode = request.args.get('hub.mode')
         token = request.args.get('hub.verify_token')
         challenge = request.args.get('hub.challenge')
+        logging.info(token)
         if token == "token_whats_teste":
             logging.info("Verified webhook")
             response = make_response(challenge, 200)
@@ -50,7 +51,7 @@ def webhook():
                
 
     # return "Hello world", 200
-    input_response = request.get_json()
+
     if request.method == 'POST':
         try:
             print(input_response['entry'][0]['changes'][0]['value']['messages'])

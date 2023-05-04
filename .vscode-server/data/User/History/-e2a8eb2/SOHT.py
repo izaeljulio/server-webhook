@@ -7,6 +7,7 @@ Created on Thu Apr 27 15:50:01 2023
 
 from flask import Flask, request, abort, json, make_response
 import openai
+import requests
 import os
 import logging
 #from heyoo import WhatsApp
@@ -33,12 +34,13 @@ def index():
 
 @app.route('/webhook', methods=['GET', 'POST'])
 def webhook():
-    
+    input_response = request.get_json()
     if request.method == 'GET':
         VERIFY_TOKEN = 'token_whats_teste'
         mode = request.args.get('hub.mode')
         token = request.args.get('hub.verify_token')
         challenge = request.args.get('hub.challenge')
+        
         if token == "token_whats_teste":
             logging.info("Verified webhook")
             response = make_response(challenge, 200)
@@ -50,7 +52,7 @@ def webhook():
                
 
     # return "Hello world", 200
-    input_response = request.get_json()
+
     if request.method == 'POST':
         try:
             print(input_response['entry'][0]['changes'][0]['value']['messages'])
