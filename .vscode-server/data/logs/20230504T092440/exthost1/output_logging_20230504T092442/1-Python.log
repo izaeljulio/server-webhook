@@ -1,0 +1,11 @@
+Experiment 'pythonPromptNewFormatterExt' is active
+Experiment 'pythonPromptNewToolsExt' is active
+> conda info --json
+Python interpreter path: ./server-webhook/bin/python
+> . ./server-webhook/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ./.vscode-server/extensions/ms-python.python-2023.6.1/pythonFiles/printEnvVariables.py
+shell: bash
+> ./server-webhook/bin/python -I ./.vscode-server/extensions/ms-python.python-2023.6.1/pythonFiles/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2023.6.1/pythonFiles/interpreterInfo.py
+> ./venv/bin/python -I ./.vscode-server/extensions/ms-python.python-2023.6.1/pythonFiles/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2023.6.1/pythonFiles/interpreterInfo.py
+> /bin/python3 -I ./.vscode-server/extensions/ms-python.python-2023.6.1/pythonFiles/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2023.6.1/pythonFiles/interpreterInfo.py
+> /usr/bin/python3 -I ./.vscode-server/extensions/ms-python.python-2023.6.1/pythonFiles/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2023.6.1/pythonFiles/interpreterInfo.py
+Starting Pylance language server.

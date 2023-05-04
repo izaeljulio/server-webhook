@@ -95,3 +95,5 @@
 2023-05-03 21:59:40.320 [warning] No ptyHost heartbeat after 6 seconds
 2023-05-04 07:43:26.432 [info] [127.0.0.1][c8408fd9][ManagementConnection] The client has reconnected.
 2023-05-04 07:43:26.771 [info] [127.0.0.1][030e5304][ExtensionHostConnection] The client has reconnected.
+2023-05-04 09:24:17.845 [info] [127.0.0.1][c8408fd9][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-05-04 09:24:17.935 [info] [127.0.0.1][030e5304][ExtensionHostConnection] <11278> Extension Host Process exited with code: 0, signal: null.

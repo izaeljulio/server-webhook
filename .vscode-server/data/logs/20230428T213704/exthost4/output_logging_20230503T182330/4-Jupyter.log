@@ -8,3 +8,6 @@ User belongs to experiment group 'jupyterTestcf'
 info 18:23:47.705: LSP Notebooks experiment is enabled
 info 18:23:48.125: Process Execution: > ~/server-webhook/bin/python -m pip list
 > ~/server-webhook/bin/python -m pip list
+info 09:24:17.870: Shutting down notebooks for 85b4be2d-b109-417e-88e5-a200ae9c1d8c
+info 09:24:17.871: Disposing HostJupyterExecution f83c6e91-d8c8-4029-aacd-1b53d4026ff1
+info 09:24:17.871: Disposing HostJupyterExecution f83c6e91-d8c8-4029-aacd-1b53d4026ff1

@@ -1,0 +1,13 @@
+Visual Studio Code (1.78.0, wsl, desktop)
+Jupyter Extension Version: 2023.3.1201040234.
+Python Extension Version: 2023.6.1.
+Workspace folder /home/izael
+info 09:24:43.558: ZMQ loaded via fallback mechanism.
+User belongs to experiment group 'jupyterEnhancedDataViewer'
+User belongs to experiment group 'jupyterTestcf'
+info 09:24:44.065: LSP Notebooks experiment is enabled
+info 09:24:44.962: Process Execution: > ~/server-webhook/bin/python -m pip list
+> ~/server-webhook/bin/python -m pip list
+info 09:33:40.042: Shutting down notebooks for 0a7efed3-c3f9-41ee-829e-2fd6445c65f0
+info 09:33:40.042: Disposing HostJupyterExecution 92f1f1b9-adbd-4415-a473-84c77c80cacc
+info 09:33:40.042: Disposing HostJupyterExecution 92f1f1b9-adbd-4415-a473-84c77c80cacc

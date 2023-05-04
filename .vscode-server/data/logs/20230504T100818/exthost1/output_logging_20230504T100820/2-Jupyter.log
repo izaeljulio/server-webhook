@@ -1,0 +1,11 @@
+Visual Studio Code (1.78.0, wsl, desktop)
+Jupyter Extension Version: 2023.4.1011241018.
+Python Extension Version: 2023.8.0.
+Platform: linux (x64).
+Workspace folder /home/izael, Home = /home/izael
+User belongs to experiment group 'jupyterEnhancedDataViewer'
+User belongs to experiment group 'jupyterTestcf'
+10:08:21.300 [info] Start refreshing Kernel Picker (1683205701300)
+10:08:21.335 [info] Using Pylance
+10:08:22.335 [info] Process Execution: ~/server-webhook/bin/python -m pip list
+10:08:23.637 [info] End refreshing Kernel Picker (1683205701300)

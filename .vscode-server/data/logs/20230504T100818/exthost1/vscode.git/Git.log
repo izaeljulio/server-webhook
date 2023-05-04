@@ -1,0 +1,21 @@
+2023-05-04 10:08:22.073 [info] Log level: Info
+2023-05-04 10:08:22.073 [info] Validating found git in: "git"
+2023-05-04 10:08:22.073 [info] Using git "2.25.1" from "git"
+2023-05-04 10:08:22.073 [info] > git rev-parse --show-toplevel [55ms]
+2023-05-04 10:08:22.114 [info] > git rev-parse --git-dir --git-common-dir [36ms]
+2023-05-04 10:08:22.122 [info] Open repository: /home/izael
+2023-05-04 10:08:22.140 [info] > git rev-parse --show-toplevel [11ms]
+2023-05-04 10:08:22.152 [info] > git rev-parse --show-toplevel [6ms]
+2023-05-04 10:08:22.160 [info] > git config --get commit.template [19ms]
+2023-05-04 10:08:22.164 [info] > git rev-parse --show-toplevel [6ms]
+2023-05-04 10:08:22.178 [info] > git rev-parse --show-toplevel [9ms]
+2023-05-04 10:08:22.188 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [12ms]
+2023-05-04 10:08:22.194 [info] > git rev-parse --show-toplevel [10ms]
+2023-05-04 10:08:22.215 [info] > git rev-parse --show-toplevel [15ms]
+2023-05-04 10:08:22.223 [info] > git rev-parse --show-toplevel [2ms]
+2023-05-04 10:08:22.231 [info] > git rev-parse --show-toplevel [2ms]
+2023-05-04 10:08:22.461 [info] > git show --textconv :server.py [10ms]
+2023-05-04 10:08:22.466 [info] > git ls-files --stage -- /home/izael/server.py [7ms]
+2023-05-04 10:08:22.479 [info] > git cat-file -s 3a049b61e56516977b9517f4b2fa78ad4d7c01c4 [5ms]
+2023-05-04 10:08:22.509 [info] > git status -z -uall [316ms] (cancelled)
+2023-05-04 10:08:22.736 [info] > git check-ignore -v -z --stdin [70ms]

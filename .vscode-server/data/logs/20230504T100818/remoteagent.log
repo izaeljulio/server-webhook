@@ -1,0 +1,12 @@
+2023-05-04 10:08:18.127 [info] 
+
+
+
+
+2023-05-04 10:08:18.166 [info] Extension host agent started.
+2023-05-04 10:08:18.363 [info] Deleted from disk ms-python.python /home/izael/.vscode-server/extensions/ms-python.python-2023.6.1
+2023-05-04 10:08:18.364 [info] Deleted from disk ms-python.vscode-pylance /home/izael/.vscode-server/extensions/ms-python.vscode-pylance-2023.4.40
+2023-05-04 10:08:18.365 [info] Deleted from disk ms-toolsai.jupyter /home/izael/.vscode-server/extensions/ms-toolsai.jupyter-2023.3.1201040234
+2023-05-04 10:08:18.381 [info] [127.0.0.1][0ba78079][ManagementConnection] New connection established.
+2023-05-04 10:08:18.704 [info] [127.0.0.1][3c5d4e85][ExtensionHostConnection] New connection established.
+2023-05-04 10:08:18.736 [info] [127.0.0.1][3c5d4e85][ExtensionHostConnection] <93> Launched Extension Host Process.

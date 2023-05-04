@@ -80,13 +80,7 @@
 		"webpack-cli": "^4.6.0"
 	},
 	"__metadata": {
-		"id": "e153ca70-b543-4865-b4c5-b31d34185948",
-		"publisherId": "ac8eb7c9-3e59-4b39-8040-f0484d8170ce",
-		"publisherDisplayName": "Microsoft",
-		"targetPlatform": "undefined",
-		"updated": false,
-		"isPreReleaseVersion": false,
-		"installedTimestamp": 1683134859071,
-		"preRelease": false
+		"isApplicationScoped": false,
+		"installedTimestamp": 1683203116348
 	}
 }

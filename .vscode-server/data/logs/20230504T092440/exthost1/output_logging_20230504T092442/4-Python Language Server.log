@@ -1,0 +1,16 @@
+[Info  - 9:24:47 AM] (24695) Pylance language server 2023.4.40 (pyright 5b6a1d3b) starting
+[Info  - 9:24:47 AM] (24695) Server root directory: /home/izael/.vscode-server/extensions/ms-python.vscode-pylance-2023.4.40/dist
+[Info  - 9:24:47 AM] (24695) Starting service instance "izael"
+[Info  - 9:24:47 AM] (24695) Setting pythonPath for service "izael": "/home/izael/server-webhook/bin/python"
+[Warn  - 9:24:47 AM] (24695) stubPath /home/izael/typings is not a valid directory.
+[Info  - 9:24:47 AM] (24695) Assuming Python version 3.8
+[Info  - 9:24:47 AM] (24695) Auto-excluding /home/izael/server-webhook
+[Info  - 9:24:47 AM] (24695) Auto-excluding /home/izael/venv
+[Info  - 9:24:47 AM] (24695) Found 1 source file
+[Info  - 9:24:47 AM] (24695) Background analysis(1) root directory: /home/izael/.vscode-server/extensions/ms-python.vscode-pylance-2023.4.40/dist
+[Info  - 9:24:47 AM] (24695) Background analysis(1) started
+[Info  - 9:24:47 AM] (24695) Indexer background runner(2) root directory: /home/izael/.vscode-server/extensions/ms-python.vscode-pylance-2023.4.40/dist (index)
+[Info  - 9:24:47 AM] (24695) Indexing(2) started
+[Info  - 9:24:48 AM] (24695) scanned(2) 56 files over 1 exec env
+[Info  - 9:24:49 AM] (24695) indexed(2) 46 files over 1 exec env
+[Info  - 9:24:49 AM] (24695) Indexing finished(2).

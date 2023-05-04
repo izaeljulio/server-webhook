@@ -1,0 +1,16 @@
+2023-05-04 10:08:21.941 [info] Experiment 'pythonPromptNewFormatterExt' is active
+2023-05-04 10:08:21.942 [info] Experiment 'pythonPromptNewToolsExt' is active
+2023-05-04 10:08:21.942 [info] Test server listening.
+2023-05-04 10:08:21.942 [info] > conda info --json
+2023-05-04 10:08:21.943 [info] Python interpreter path: ./server-webhook/bin/python
+2023-05-04 10:08:22.073 [info] Found: /bin/python3 --> /bin/python3.8
+2023-05-04 10:08:22.112 [info] Found: /bin/python3.8 --> /bin/python3.8
+2023-05-04 10:08:22.214 [info] > . ./server-webhook/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ./.vscode-server/extensions/ms-python.python-2023.8.0/pythonFiles/printEnvVariables.py
+2023-05-04 10:08:22.214 [info] shell: bash
+2023-05-04 10:08:22.230 [info] Found: /usr/bin/python3 --> /usr/bin/python3.8
+2023-05-04 10:08:22.230 [info] Found: /usr/bin/python3.8 --> /usr/bin/python3.8
+2023-05-04 10:08:22.258 [info] > ./server-webhook/bin/python -I ./.vscode-server/extensions/ms-python.python-2023.8.0/pythonFiles/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2023.8.0/pythonFiles/interpreterInfo.py
+2023-05-04 10:08:22.281 [info] > ./venv/bin/python -I ./.vscode-server/extensions/ms-python.python-2023.8.0/pythonFiles/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2023.8.0/pythonFiles/interpreterInfo.py
+2023-05-04 10:08:22.537 [info] > /bin/python3 -I ./.vscode-server/extensions/ms-python.python-2023.8.0/pythonFiles/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2023.8.0/pythonFiles/interpreterInfo.py
+2023-05-04 10:08:22.576 [info] > /usr/bin/python3 -I ./.vscode-server/extensions/ms-python.python-2023.8.0/pythonFiles/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2023.8.0/pythonFiles/interpreterInfo.py
+2023-05-04 10:08:23.138 [info] Starting Pylance language server.

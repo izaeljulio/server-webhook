@@ -1,0 +1,21 @@
+2023-05-04 10:08:23.122 [info] [Info  - 10:08:23 AM] (185) Pylance language server 2023.5.10 (pyright c400d889) starting
+2023-05-04 10:08:23.122 [info] [Info  - 10:08:23 AM] (185) Server root directory: /home/izael/.vscode-server/extensions/ms-python.vscode-pylance-2023.5.10/dist
+2023-05-04 10:08:23.122 [info] [Info  - 10:08:23 AM] (185) Starting service instance "izael"
+2023-05-04 10:08:23.172 [info] [Info  - 10:08:23 AM] (185) Setting pythonPath for service "izael": "/home/izael/server-webhook/bin/python"
+2023-05-04 10:08:23.175 [info] [Warn  - 10:08:23 AM] (185) stubPath /home/izael/typings is not a valid directory.
+2023-05-04 10:08:23.208 [info] [Info  - 10:08:23 AM] (185) Assuming Python version 3.8
+2023-05-04 10:08:23.286 [info] [Info  - 10:08:23 AM] (185) Auto-excluding /home/izael/server-webhook
+2023-05-04 10:08:23.286 [info] [Info  - 10:08:23 AM] (185) Auto-excluding /home/izael/venv
+2023-05-04 10:08:23.288 [info] [Info  - 10:08:23 AM] (185) Found 1 source file
+2023-05-04 10:08:23.688 [info] [Info  - 10:08:23 AM] (185) Background analysis(1) root directory: /home/izael/.vscode-server/extensions/ms-python.vscode-pylance-2023.5.10/dist
+2023-05-04 10:08:23.688 [info] [Info  - 10:08:23 AM] (185) Background analysis(1) started
+2023-05-04 10:08:23.790 [info] [Info  - 10:08:23 AM] (185) Indexer background runner(2) root directory: /home/izael/.vscode-server/extensions/ms-python.vscode-pylance-2023.5.10/dist (index)
+2023-05-04 10:08:23.790 [info] [Info  - 10:08:23 AM] (185) Indexing(2) started
+2023-05-04 10:08:24.336 [info] [Info  - 10:08:24 AM] (185) scanned(2) 56 files over 1 exec env
+2023-05-04 10:08:25.235 [info] [Info  - 10:08:25 AM] (185) indexed(2) 46 files over 1 exec env
+2023-05-04 10:08:25.239 [info] [Info  - 10:08:25 AM] (185) Indexing finished(2).
+2023-05-04 10:08:54.104 [info] [Info  - 10:08:54 AM] (185) Indexer background runner(3) root directory: /home/izael/.vscode-server/extensions/ms-python.vscode-pylance-2023.5.10/dist (refresh)
+2023-05-04 10:08:54.104 [info] [Info  - 10:08:54 AM] (185) Indexing(3) started
+2023-05-04 10:08:54.611 [info] [Info  - 10:08:54 AM] (185) scanned(3) 77 files over 1 exec env
+2023-05-04 10:08:55.835 [info] [Info  - 10:08:55 AM] (185) indexed(3) 65 files over 1 exec env
+2023-05-04 10:08:55.840 [info] [Info  - 10:08:55 AM] (185) Indexing finished(3).

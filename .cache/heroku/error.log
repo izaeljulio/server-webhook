@@ -46,3 +46,12 @@ To add an exception for this directory, call:
     at Socket.<anonymous> (node:internal/child_process:458:11)
     at Socket.emit (node:events:513:28)
     at Pipe.<anonymous> (node:net:301:12)
+2023-05-04T10:53:25.470Z Warning: getaddrinfo EAI_AGAIN api.heroku.com
+2023-05-04T10:53:25.470Z     at Object.warn (/usr/lib/heroku/node_modules/@oclif/core/lib/errors/index.js:50:15)
+2023-05-04T10:53:25.470Z     at Login.login (/usr/lib/heroku/node_modules/@heroku-cli/command/lib/login.js:58:20)
+2023-05-04T10:53:25.470Z     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-05-04T10:53:25.470Z     at async Login.run (/usr/lib/heroku/node_modules/@heroku-cli/plugin-auth/lib/commands/auth/login.js:12:9)
+2023-05-04T10:53:25.470Z     at async Login._run (/usr/lib/heroku/node_modules/@oclif/core/lib/command.js:80:22)
+2023-05-04T10:53:25.470Z     at async Config.runCommand (/usr/lib/heroku/node_modules/@oclif/core/lib/config/config.js:301:25)
+2023-05-04T10:54:09.323Z Error: getaddrinfo EAI_AGAIN cli-auth.heroku.com
+2023-05-04T10:54:09.323Z     at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)

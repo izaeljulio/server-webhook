@@ -1,0 +1,89 @@
+2023-05-04 09:24:40.728 [info] 
+
+
+
+
+2023-05-04 09:24:40.761 [info] Extension host agent started.
+2023-05-04 09:24:40.907 [info] [127.0.0.1][8d6847ce][ManagementConnection] New connection established.
+2023-05-04 09:24:41.267 [info] [127.0.0.1][ac14489c][ExtensionHostConnection] New connection established.
+2023-05-04 09:24:41.394 [info] [127.0.0.1][ac14489c][ExtensionHostConnection] <24579> Launched Extension Host Process.
+2023-05-04 09:24:47.628 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)
+2023-05-04 09:24:50.915 [info] Getting Manifest... ms-python.python
+2023-05-04 09:24:50.915 [info] Getting Manifest... ms-python.vscode-pylance
+2023-05-04 09:24:50.916 [info] Getting Manifest... ms-toolsai.jupyter
+2023-05-04 09:25:03.228 [error] Failed to install extension. ms-python.python
+2023-05-04 09:25:03.228 [error] Error: getaddrinfo EAI_AGAIN ms-python.gallery.vsassets.io
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)
+2023-05-04 09:25:07.251 [info] Downloaded extension to file:///home/izael/.vscode-server/data/CachedExtensionVSIXs/f4798603-de52-4be8-95c0-216f6e5f1da9
+2023-05-04 09:25:08.012 [info] Installing extension: ms-python.vscode-pylance
+2023-05-04 09:25:08.012 [info] Installing the extension without checking dependencies and pack ms-python.vscode-pylance
+2023-05-04 09:25:09.468 [error] Failed to install extension. ms-toolsai.jupyter
+2023-05-04 09:25:09.468 [error] Error: getaddrinfo EAI_AGAIN ms-toolsai.gallery.vsassets.io
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)
+2023-05-04 09:25:09.471 [error] Failed to install extension. ms-python.vscode-pylance
+2023-05-04 09:25:09.471 [error] Error: getaddrinfo EAI_AGAIN ms-python.gallery.vsassets.io
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)
+2023-05-04 09:25:12.622 [info] Downloaded extension to file:///home/izael/.vscode-server/data/CachedExtensionVSIXs/383cd94e-0e8c-4949-aa47-c1e3dfc08b2f
+2023-05-04 09:25:12.637 [info] Installing extension: ms-python.python
+2023-05-04 09:25:12.637 [info] Installing the extension without checking dependencies and pack ms-python.python
+2023-05-04 09:25:12.641 [info] Downloaded extension to file:///home/izael/.vscode-server/data/CachedExtensionVSIXs/185ada6c-714b-4781-827e-ba387d4a1f3c
+2023-05-04 09:25:12.682 [info] Installing extension: ms-toolsai.jupyter-renderers
+2023-05-04 09:25:12.682 [info] Installing the extension without checking dependencies and pack ms-toolsai.jupyter-renderers
+2023-05-04 09:25:12.699 [info] Deleted from disk ms-toolsai.jupyter-renderers /home/izael/.vscode-server/extensions/ms-toolsai.jupyter-renderers-1.0.15
+2023-05-04 09:25:13.501 [info] Extracted extension to /home/izael/.vscode-server/extensions/.e9fdc689-28dd-48c7-9dcb-a97f640ea5fd: ms-toolsai.jupyter-renderers
+2023-05-04 09:25:13.527 [info] Renamed to /home/izael/.vscode-server/extensions/ms-toolsai.jupyter-renderers-1.0.15
+2023-05-04 09:25:13.531 [info] Extracting extension completed. ms-toolsai.jupyter-renderers
+2023-05-04 09:25:13.555 [info] Extension installed successfully: ms-toolsai.jupyter-renderers
+2023-05-04 09:25:15.185 [info] Extracted extension to /home/izael/.vscode-server/extensions/.25bf6552-20fb-4200-8b97-86034b521756: ms-python.vscode-pylance
+2023-05-04 09:25:15.497 [info] Renamed to /home/izael/.vscode-server/extensions/ms-python.vscode-pylance-2023.5.10
+2023-05-04 09:25:15.500 [info] Extracting extension completed. ms-python.vscode-pylance
+2023-05-04 09:25:15.526 [info] Downloaded extension to file:///home/izael/.vscode-server/data/CachedExtensionVSIXs/df5fc871-7d6d-4098-ab35-17b0610a9044
+2023-05-04 09:25:15.531 [info] Extension installed successfully: ms-python.vscode-pylance
+2023-05-04 09:25:15.538 [info] Marked extension as uninstalled ms-python.vscode-pylance-2023.4.40
+2023-05-04 09:25:15.546 [info] Installing extension: ms-toolsai.vscode-jupyter-cell-tags
+2023-05-04 09:25:15.546 [info] Installing the extension without checking dependencies and pack ms-toolsai.vscode-jupyter-cell-tags
+2023-05-04 09:25:15.573 [info] Deleted from disk ms-toolsai.vscode-jupyter-cell-tags /home/izael/.vscode-server/extensions/ms-toolsai.vscode-jupyter-cell-tags-0.1.8
+2023-05-04 09:25:15.621 [info] Extracted extension to /home/izael/.vscode-server/extensions/.4922ea11-2119-4b40-9ed8-15992d3d1558: ms-toolsai.vscode-jupyter-cell-tags
+2023-05-04 09:25:15.631 [info] Renamed to /home/izael/.vscode-server/extensions/ms-toolsai.vscode-jupyter-cell-tags-0.1.8
+2023-05-04 09:25:15.634 [info] Extracting extension completed. ms-toolsai.vscode-jupyter-cell-tags
+2023-05-04 09:25:15.657 [info] Extension installed successfully: ms-toolsai.vscode-jupyter-cell-tags
+2023-05-04 09:25:16.317 [info] Downloaded extension to file:///home/izael/.vscode-server/data/CachedExtensionVSIXs/2dc221b9-454e-4c32-983c-6fff9ace8d9a
+2023-05-04 09:25:16.322 [info] Installing extension: ms-toolsai.vscode-jupyter-slideshow
+2023-05-04 09:25:16.322 [info] Installing the extension without checking dependencies and pack ms-toolsai.vscode-jupyter-slideshow
+2023-05-04 09:25:16.351 [info] Deleted from disk ms-toolsai.vscode-jupyter-slideshow /home/izael/.vscode-server/extensions/ms-toolsai.vscode-jupyter-slideshow-0.1.5
+2023-05-04 09:25:16.406 [info] Extracted extension to /home/izael/.vscode-server/extensions/.d4ab1c44-812c-4b5a-9bda-ff66f732e776: ms-toolsai.vscode-jupyter-slideshow
+2023-05-04 09:25:16.416 [info] Renamed to /home/izael/.vscode-server/extensions/ms-toolsai.vscode-jupyter-slideshow-0.1.5
+2023-05-04 09:25:16.419 [info] Extracting extension completed. ms-toolsai.vscode-jupyter-slideshow
+2023-05-04 09:25:16.445 [info] Extension installed successfully: ms-toolsai.vscode-jupyter-slideshow
+2023-05-04 09:25:17.042 [info] Extracted extension to /home/izael/.vscode-server/extensions/.d1e05094-0cc4-4330-aefd-fa04f1605ba0: ms-python.python
+2023-05-04 09:25:17.066 [info] Renamed to /home/izael/.vscode-server/extensions/ms-python.python-2023.8.0
+2023-05-04 09:25:17.072 [info] Extracting extension completed. ms-python.python
+2023-05-04 09:25:17.083 [info] Extension installed successfully: ms-python.python
+2023-05-04 09:25:17.095 [info] Marked extension as uninstalled ms-python.python-2023.6.1
+2023-05-04 09:25:17.773 [info] Downloaded extension to file:///home/izael/.vscode-server/data/CachedExtensionVSIXs/249f5e23-fc62-4554-a4a5-bcd0d3f8d5ba
+2023-05-04 09:25:17.802 [info] Installing extension: ms-python.python
+2023-05-04 09:25:17.802 [info] Installing the extension without checking dependencies and pack ms-python.python
+2023-05-04 09:25:17.845 [info] Deleted from disk ms-python.python /home/izael/.vscode-server/extensions/ms-python.python-2023.8.0
+2023-05-04 09:25:18.118 [info] Downloaded extension to file:///home/izael/.vscode-server/data/CachedExtensionVSIXs/501b3916-8d7d-49dd-ba53-0cc711c5d4e2
+2023-05-04 09:25:18.190 [info] Installing extension: ms-toolsai.jupyter
+2023-05-04 09:25:18.190 [info] Installing the extension without checking dependencies and pack ms-toolsai.jupyter
+2023-05-04 09:25:18.897 [info] Extracted extension to /home/izael/.vscode-server/extensions/.0edf1c75-fa63-4b8e-8168-97fb996a68bc: ms-toolsai.jupyter
+2023-05-04 09:25:18.922 [info] Renamed to /home/izael/.vscode-server/extensions/ms-toolsai.jupyter-2023.4.1011241018
+2023-05-04 09:25:18.928 [info] Extracting extension completed. ms-toolsai.jupyter
+2023-05-04 09:25:18.942 [info] Extension installed successfully: ms-toolsai.jupyter
+2023-05-04 09:25:18.965 [info] Marked extension as uninstalled ms-toolsai.jupyter-2023.3.1201040234
+2023-05-04 09:25:19.466 [info] Downloaded extension to file:///home/izael/.vscode-server/data/CachedExtensionVSIXs/9385b677-7121-45ac-96ca-5785c84bf731
+2023-05-04 09:25:20.695 [info] Installing extension: ms-python.vscode-pylance
+2023-05-04 09:25:20.695 [info] Installing the extension without checking dependencies and pack ms-python.vscode-pylance
+2023-05-04 09:25:20.715 [info] Deleted from disk ms-python.vscode-pylance /home/izael/.vscode-server/extensions/ms-python.vscode-pylance-2023.5.10
+2023-05-04 09:25:21.733 [info] Extracted extension to /home/izael/.vscode-server/extensions/.337875d0-2379-42f8-b6e6-10ac2a164432: ms-python.python
+2023-05-04 09:25:21.799 [info] Renamed to /home/izael/.vscode-server/extensions/ms-python.python-2023.8.0
+2023-05-04 09:25:21.806 [info] Extracting extension completed. ms-python.python
+2023-05-04 09:25:21.834 [info] Extension installed successfully: ms-python.python
+2023-05-04 09:25:25.382 [info] Extracted extension to /home/izael/.vscode-server/extensions/.460f098d-ddbb-4a0a-a3ce-1956887a4d47: ms-python.vscode-pylance
+2023-05-04 09:25:25.469 [info] Renamed to /home/izael/.vscode-server/extensions/ms-python.vscode-pylance-2023.5.10
+2023-05-04 09:25:25.473 [info] Extracting extension completed. ms-python.vscode-pylance
+2023-05-04 09:25:25.488 [info] Extension installed successfully: ms-python.vscode-pylance
+2023-05-04 09:33:40.018 [info] [127.0.0.1][8d6847ce][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-05-04 09:33:40.085 [info] [127.0.0.1][ac14489c][ExtensionHostConnection] <24579> Extension Host Process exited with code: 0, signal: null.

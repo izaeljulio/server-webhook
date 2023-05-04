@@ -24,3 +24,62 @@
 2023-05-03 18:33:24.743 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:ignore'
 2023-05-03 18:33:25.827 [warning] [Decorations] CAPPING events from decorations provider vscode.git 811
 2023-05-03 18:33:38.307 [warning] [Decorations] CAPPING events from decorations provider vscode.git 813
+2023-05-04 09:24:17.844 [info] Extension host terminating: received terminate message from renderer
+2023-05-04 09:24:17.844 [info] Lock '/home/izael/.vscode-server/data/User/workspaceStorage/03ebbb50f04691bb303912f66f43b73c/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2023-05-04 09:24:17.882 [error] Canceled: Canceled
+	at new l (/home/izael/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:99:105190)
+	at c.O (/home/izael/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:109:11692)
+	at Proxy.G.<computed>.Q.charCodeAt.G.<computed> (/home/izael/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:109:8967)
+	at m.g (/home/izael/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:99:125211)
+	at m.executeCommand (/home/izael/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:99:124587)
+	at L.registerCommand.description (/home/izael/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:99:123880)
+	at m.h (/home/izael/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:99:125797)
+	at m.g (/home/izael/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:99:124687)
+	at m.executeCommand (/home/izael/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:99:124587)
+	at Object.executeCommand (/home/izael/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:115:23801)
+	at D (/home/izael/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/extensions/git/dist/main.js:2:1467156)
+	at E.invoke (/home/izael/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at h.deliver (/home/izael/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:63:2121)
+	at n.fire (/home/izael/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:63:1729)
+	at Object.m [as dispose] (/home/izael/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/extensions/git/dist/main.js:2:1481885)
+	at /home/izael/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/extensions/git/dist/main.js:2:1485952
+	at Array.forEach (<anonymous>)
+	at g.dispose (/home/izael/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/extensions/git/dist/main.js:2:1485938)
+	at t.<anonymous> (/home/izael/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:97:12398)
+	at t.dispose (/home/izael/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:97:12533)
+	at t.<anonymous> (/home/izael/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/extensions/git/dist/main.js:2:1469286)
+	at t.dispose (/home/izael/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:97:12533)
+	at I (/home/izael/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:10:12084)
+	at E.Y (/home/izael/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:111:11147)
+	at /home/izael/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:111:9131
+	at Array.map (<anonymous>)
+	at E.R (/home/izael/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:111:9118)
+	at E.terminate (/home/izael/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:111:9389)
+	at d.terminate (/home/izael/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:115:1544)
+	at p (/home/izael/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:125:18690)
+	at /home/izael/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:125:16600
+	at E.invoke (/home/izael/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at h.deliver (/home/izael/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:63:2121)
+	at n.fire (/home/izael/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:63:1729)
+	at p.fire (/home/izael/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:72:14916)
+	at s.E (/home/izael/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:72:18982)
+	at /home/izael/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:72:18161
+	at E.invoke (/home/izael/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at h.deliver (/home/izael/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:63:2121)
+	at n.fire (/home/izael/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:63:1729)
+	at d.acceptChunk (/home/izael/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:72:12647)
+	at /home/izael/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:72:11934
+	at E.invoke (/home/izael/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at h.deliver (/home/izael/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:63:2121)
+	at n.fire (/home/izael/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:63:1729)
+	at n.u (/home/izael/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:72:28919)
+	at n.acceptFrame (/home/izael/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:72:28725)
+	at E.l (/home/izael/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:72:27312)
+	at /home/izael/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:72:24635
+	at Socket.s (/home/izael/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:72:22469)
+	at Socket.emit (node:events:526:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Socket.Readable.push (node:internal/streams/readable:228:10)
+	at TCP.onStreamRead (node:internal/stream_base_commons:190:23) setContext undefined
+2023-05-04 09:24:17.899 [info] Extension host with pid 11278 exiting with code 0
