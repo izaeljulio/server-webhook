@@ -10,3 +10,5 @@
 2023-05-04 10:08:18.381 [info] [127.0.0.1][0ba78079][ManagementConnection] New connection established.
 2023-05-04 10:08:18.704 [info] [127.0.0.1][3c5d4e85][ExtensionHostConnection] New connection established.
 2023-05-04 10:08:18.736 [info] [127.0.0.1][3c5d4e85][ExtensionHostConnection] <93> Launched Extension Host Process.
+2023-05-04 11:13:51.000 [info] [127.0.0.1][3c5d4e85][ExtensionHostConnection] The client has reconnected.
+2023-05-04 11:13:52.061 [info] [127.0.0.1][0ba78079][ManagementConnection] The client has reconnected.
