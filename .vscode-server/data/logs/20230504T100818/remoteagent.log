@@ -22,3 +22,21 @@
 2023-05-04 16:39:49.032 [warning] No ptyHost heartbeat after 6 seconds
 2023-05-04 19:49:35.998 [info] [127.0.0.1][3c5d4e85][ExtensionHostConnection] The client has reconnected.
 2023-05-04 19:49:36.520 [info] [127.0.0.1][0ba78079][ManagementConnection] The client has reconnected.
+2023-05-04 21:13:30.038 [info] [127.0.0.1][3c5d4e85][ExtensionHostConnection] The client has reconnected.
+2023-05-04 21:13:30.190 [info] [127.0.0.1][0ba78079][ManagementConnection] The client has reconnected.
+2023-05-04 21:41:52.612 [warning] No ptyHost heartbeat after 6 seconds
+2023-05-04 21:42:07.554 [warning] No ptyHost heartbeat after 6 seconds
+2023-05-07 10:38:21.863 [info] [127.0.0.1][0ba78079][ManagementConnection] The client has reconnected.
+2023-05-07 10:38:22.215 [info] [127.0.0.1][3c5d4e85][ExtensionHostConnection] The client has reconnected.
+2023-05-07 11:01:39.501 [warning] No ptyHost heartbeat after 6 seconds
+2023-05-07 19:39:51.090 [info] [127.0.0.1][0ba78079][ManagementConnection] The client has reconnected.
+2023-05-07 19:39:51.359 [info] [127.0.0.1][3c5d4e85][ExtensionHostConnection] The client has reconnected.
+2023-05-07 22:21:30.307 [warning] No ptyHost heartbeat after 6 seconds
+2023-05-07 22:21:44.792 [warning] No ptyHost heartbeat after 6 seconds
+2023-05-08 18:18:17.296 [info] [127.0.0.1][0ba78079][ManagementConnection] The client has reconnected.
+2023-05-08 18:18:17.588 [info] [127.0.0.1][3c5d4e85][ExtensionHostConnection] The client has reconnected.
+2023-05-08 18:32:36.686 [warning] No ptyHost heartbeat after 6 seconds
+2023-05-09 08:33:23.657 [info] [127.0.0.1][3c5d4e85][ExtensionHostConnection] The client has reconnected.
+2023-05-09 08:33:23.815 [info] [127.0.0.1][0ba78079][ManagementConnection] The client has reconnected.
+2023-05-09 10:49:59.016 [info] [127.0.0.1][3c5d4e85][ExtensionHostConnection] The client has reconnected.
+2023-05-09 10:50:04.713 [info] [127.0.0.1][0ba78079][ManagementConnection] The client has reconnected.
