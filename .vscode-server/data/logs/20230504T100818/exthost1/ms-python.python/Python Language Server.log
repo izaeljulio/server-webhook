@@ -19,3 +19,8 @@
 2023-05-04 10:08:54.611 [info] [Info  - 10:08:54 AM] (185) scanned(3) 77 files over 1 exec env
 2023-05-04 10:08:55.835 [info] [Info  - 10:08:55 AM] (185) indexed(3) 65 files over 1 exec env
 2023-05-04 10:08:55.840 [info] [Info  - 10:08:55 AM] (185) Indexing finished(3).
+2023-05-10 15:46:30.950 [info] [Info  - 3:46:30 PM] (185) Indexer background runner(4) root directory: /home/izael/.vscode-server/extensions/ms-python.vscode-pylance-2023.5.10/dist (refresh)
+2023-05-10 15:46:30.950 [info] [Info  - 3:46:30 PM] (185) Indexing(4) started
+2023-05-10 15:46:31.294 [info] [Info  - 3:46:31 PM] (185) scanned(4) 82 files over 1 exec env
+2023-05-10 15:46:32.076 [info] [Info  - 3:46:32 PM] (185) indexed(4) 69 files over 1 exec env
+2023-05-10 15:46:32.080 [info] [Info  - 3:46:32 PM] (185) Indexing finished(4).

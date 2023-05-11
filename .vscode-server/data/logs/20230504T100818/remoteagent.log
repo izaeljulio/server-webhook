@@ -53,3 +53,6 @@
 2023-05-09 20:22:10.990 [warning] No ptyHost heartbeat after 6 seconds
 2023-05-10 14:10:45.490 [info] [127.0.0.1][0ba78079][ManagementConnection] The client has reconnected.
 2023-05-10 14:10:45.782 [info] [127.0.0.1][3c5d4e85][ExtensionHostConnection] The client has reconnected.
+2023-05-10 15:55:09.728 [warning] No ptyHost heartbeat after 6 seconds
+2023-05-11 14:22:29.684 [info] [127.0.0.1][3c5d4e85][ExtensionHostConnection] The client has reconnected.
+2023-05-11 14:22:30.079 [info] [127.0.0.1][0ba78079][ManagementConnection] The client has reconnected.
