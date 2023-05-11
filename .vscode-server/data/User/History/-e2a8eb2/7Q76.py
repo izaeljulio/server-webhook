@@ -75,8 +75,7 @@ def webhook():
 
 
 def send_text_message(input, number):
-        response_assistant = chat_gpt_resposta.gerar_resposta_chat_gpt(input)
-        logging.error(response_assistant)
+        response_assistant = get_assistant_response(input)
         headers = {
             'Authorization': 'Bearer ' + WHATSAPP_API_KEY,
         }
@@ -117,5 +116,4 @@ def issue():
 if __name__ == '__main__':
     port = int(os.environ.get("PORT", 5000))
     app.run(host='0.0.0.0', port=port)
-    
                       

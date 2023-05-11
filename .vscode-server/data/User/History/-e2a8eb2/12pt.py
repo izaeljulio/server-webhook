@@ -12,7 +12,6 @@ import logging
 #from heyoo import WhatsApp
 from os import environ
 import chat_gpt_resposta
-import requests
 
 
 #from flask_ngrok import run_with_ngrok
@@ -23,7 +22,7 @@ app = Flask(__name__)
 VERIFY_TOKEN = environ.get("APP_SECRET") #application secret here
 WHATSAPP_API_KEY = environ.get("WHATSAPP_API_KEY")
 
-openai.api_key = environ.get("OPENAI_KEY")
+openai.api_key = "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" #environ.get("OPENAI_API_KEY")
 
 
 
@@ -75,8 +74,7 @@ def webhook():
 
 
 def send_text_message(input, number):
-        response_assistant = chat_gpt_resposta.gerar_resposta_chat_gpt(input)
-        logging.error(response_assistant)
+        response_assistant = get_assistant_response(input)
         headers = {
             'Authorization': 'Bearer ' + WHATSAPP_API_KEY,
         }
@@ -117,5 +115,5 @@ def issue():
 if __name__ == '__main__':
     port = int(os.environ.get("PORT", 5000))
     app.run(host='0.0.0.0', port=port)
-    
+    gerar_resposta_chatgpt("Como Fazer bolo de fubá?")
                       

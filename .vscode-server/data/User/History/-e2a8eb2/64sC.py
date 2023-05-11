@@ -11,9 +11,9 @@ import os
 import logging
 #from heyoo import WhatsApp
 from os import environ
-import chat_gpt_resposta
-import requests
 
+import requests
+import json
 
 #from flask_ngrok import run_with_ngrok
 
@@ -23,8 +23,9 @@ app = Flask(__name__)
 VERIFY_TOKEN = environ.get("APP_SECRET") #application secret here
 WHATSAPP_API_KEY = environ.get("WHATSAPP_API_KEY")
 
-openai.api_key = environ.get("OPENAI_KEY")
+openai.api_key = "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" #environ.get("OPENAI_API_KEY")
 
+API_KEY = "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"
 
 
 
@@ -75,8 +76,7 @@ def webhook():
 
 
 def send_text_message(input, number):
-        response_assistant = chat_gpt_resposta.gerar_resposta_chat_gpt(input)
-        logging.error(response_assistant)
+        response_assistant = get_assistant_response(input)
         headers = {
             'Authorization': 'Bearer ' + WHATSAPP_API_KEY,
         }
@@ -90,6 +90,27 @@ def send_text_message(input, number):
         }
         response = requests.post('https://graph.facebook.com/v16.0/111076931974481/messages', headers=headers, json=json_data)
         print(response.text)
+
+def gerar_resposta_chatgpt(input):
+    headers = {"Authorization": f"Bearer {API_KEY}", "Content-Type": "application/json"}
+    link = "https://api.openai.com/v1/chat/completions"
+    id_modelo = "gpt-3.5-turbo"
+
+    body_mensagem = {
+        "model": id_modelo,
+        "messages": [{"role": "user", "content": "como fazer bolo de fubá?"}]
+    }
+
+    body_mensagem = json.dumps(body_mensagem)
+
+    requisicao = requests.post(link, headers=headers, data=body_mensagem)
+
+    resposta = requisicao.json()
+    print(resposta)
+    mensagem = resposta["choices"][0]["message"]["content"]
+    print(mensagem)
+    
+    return mensagem
 
 
 def get_assistant_response(input):
@@ -117,5 +138,5 @@ def issue():
 if __name__ == '__main__':
     port = int(os.environ.get("PORT", 5000))
     app.run(host='0.0.0.0', port=port)
-    
+    gerar_resposta_chatgpt("Como Fazer bolo de fubá?")
                       

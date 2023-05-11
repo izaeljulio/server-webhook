@@ -76,7 +76,6 @@ def webhook():
 
 def send_text_message(input, number):
         response_assistant = chat_gpt_resposta.gerar_resposta_chat_gpt(input)
-        logging.error(response_assistant)
         headers = {
             'Authorization': 'Bearer ' + WHATSAPP_API_KEY,
         }
